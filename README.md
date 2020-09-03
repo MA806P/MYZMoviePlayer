@@ -1,2 +1,2 @@
 # MYZMoviePlayer
-movie player project
+movie player iOS project
