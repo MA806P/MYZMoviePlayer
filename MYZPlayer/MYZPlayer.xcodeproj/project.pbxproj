@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DA2F22502503264F00FFEA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F224F2503264F00FFEA1A /* AppDelegate.swift */; };
-		DA2F22522503264F00FFEA1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F22512503264F00FFEA1A /* SceneDelegate.swift */; };
 		DA2F22542503264F00FFEA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F22532503264F00FFEA1A /* ViewController.swift */; };
-		DA2F22572503264F00FFEA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2F22552503264F00FFEA1A /* Main.storyboard */; };
 		DA2F22592503265000FFEA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2F22582503265000FFEA1A /* Assets.xcassets */; };
 		DA2F225C2503265000FFEA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2F225A2503265000FFEA1A /* LaunchScreen.storyboard */; };
 		DA2F22672503265100FFEA1A /* MYZPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F22662503265100FFEA1A /* MYZPlayerTests.swift */; };
 		DA2F22722503265100FFEA1A /* MYZPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F22712503265100FFEA1A /* MYZPlayerUITests.swift */; };
+		DAB7EC092505D36E008D1DAE /* MYZTabarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7EC082505D36E008D1DAE /* MYZTabarController.swift */; };
+		DAB7EC0B2505D390008D1DAE /* MYZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7EC0A2505D390008D1DAE /* MYZNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,7 @@
 /* Begin PBXFileReference section */
 		DA2F224C2503264F00FFEA1A /* MYZPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYZPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2F224F2503264F00FFEA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA2F22512503264F00FFEA1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA2F22532503264F00FFEA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA2F22562503264F00FFEA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA2F22582503265000FFEA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2F225B2503265000FFEA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA2F225D2503265000FFEA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		DA2F226D2503265100FFEA1A /* MYZPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYZPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2F22712503265100FFEA1A /* MYZPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZPlayerUITests.swift; sourceTree = "<group>"; };
 		DA2F22732503265100FFEA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB7EC082505D36E008D1DAE /* MYZTabarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZTabarController.swift; sourceTree = "<group>"; };
+		DAB7EC0A2505D390008D1DAE /* MYZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				DA2F224F2503264F00FFEA1A /* AppDelegate.swift */,
-				DA2F22512503264F00FFEA1A /* SceneDelegate.swift */,
 				DA2F22532503264F00FFEA1A /* ViewController.swift */,
-				DA2F22552503264F00FFEA1A /* Main.storyboard */,
+				DAB7EC082505D36E008D1DAE /* MYZTabarController.swift */,
+				DAB7EC0A2505D390008D1DAE /* MYZNavigationController.swift */,
 				DA2F22582503265000FFEA1A /* Assets.xcassets */,
 				DA2F225A2503265000FFEA1A /* LaunchScreen.storyboard */,
 				DA2F225D2503265000FFEA1A /* Info.plist */,
@@ -234,7 +234,6 @@
 			files = (
 				DA2F225C2503265000FFEA1A /* LaunchScreen.storyboard in Resources */,
 				DA2F22592503265000FFEA1A /* Assets.xcassets in Resources */,
-				DA2F22572503264F00FFEA1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +259,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2F22542503264F00FFEA1A /* ViewController.swift in Sources */,
+				DAB7EC092505D36E008D1DAE /* MYZTabarController.swift in Sources */,
 				DA2F22502503264F00FFEA1A /* AppDelegate.swift in Sources */,
-				DA2F22522503264F00FFEA1A /* SceneDelegate.swift in Sources */,
+				DAB7EC0B2505D390008D1DAE /* MYZNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA2F22552503264F00FFEA1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA2F22562503264F00FFEA1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA2F225A2503265000FFEA1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
