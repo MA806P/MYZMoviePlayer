@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A1AAC47B31B6FF1B9F818C /* libPods-MYZPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E194D41AE3C766D2CB62F3AC /* libPods-MYZPlayer.a */; };
 		DA2F22502503264F00FFEA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F224F2503264F00FFEA1A /* AppDelegate.swift */; };
 		DA2F22542503264F00FFEA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F22532503264F00FFEA1A /* ViewController.swift */; };
 		DA2F22592503265000FFEA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2F22582503265000FFEA1A /* Assets.xcassets */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017125811D27BA5F0805FCAD /* Pods-MYZPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYZPlayer.release.xcconfig"; path = "Target Support Files/Pods-MYZPlayer/Pods-MYZPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		74F21C370D8679D64B035DE2 /* Pods-MYZPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYZPlayer.debug.xcconfig"; path = "Target Support Files/Pods-MYZPlayer/Pods-MYZPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2F224C2503264F00FFEA1A /* MYZPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYZPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2F224F2503264F00FFEA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA2F22532503264F00FFEA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		DA2F22732503265100FFEA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB7EC082505D36E008D1DAE /* MYZTabarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZTabarController.swift; sourceTree = "<group>"; };
 		DAB7EC0A2505D390008D1DAE /* MYZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZNavigationController.swift; sourceTree = "<group>"; };
+		E194D41AE3C766D2CB62F3AC /* libPods-MYZPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYZPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A1AAC47B31B6FF1B9F818C /* libPods-MYZPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15F4EF46F1AFD1746FBF7B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E194D41AE3C766D2CB62F3AC /* libPods-MYZPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85BB886F3580F789EABA0CD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74F21C370D8679D64B035DE2 /* Pods-MYZPlayer.debug.xcconfig */,
+				017125811D27BA5F0805FCAD /* Pods-MYZPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA2F22432503264F00FFEA1A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				DA2F22652503265100FFEA1A /* MYZPlayerTests */,
 				DA2F22702503265100FFEA1A /* MYZPlayerUITests */,
 				DA2F224D2503264F00FFEA1A /* Products */,
+				85BB886F3580F789EABA0CD7 /* Pods */,
+				15F4EF46F1AFD1746FBF7B9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2F22762503265100FFEA1A /* Build configuration list for PBXNativeTarget "MYZPlayer" */;
 			buildPhases = (
+				153AD53F18BBB9092994DD55 /* [CP] Check Pods Manifest.lock */,
 				DA2F22482503264F00FFEA1A /* Sources */,
 				DA2F22492503264F00FFEA1A /* Frameworks */,
 				DA2F224A2503264F00FFEA1A /* Resources */,
@@ -252,6 +278,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		153AD53F18BBB9092994DD55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYZPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA2F22482503264F00FFEA1A /* Sources */ = {
@@ -424,6 +475,7 @@
 		};
 		DA2F22772503265100FFEA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F21C370D8679D64B035DE2 /* Pods-MYZPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +493,7 @@
 		};
 		DA2F22782503265100FFEA1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017125811D27BA5F0805FCAD /* Pods-MYZPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
