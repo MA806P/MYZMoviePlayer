@@ -16,6 +16,7 @@
 		DA2F22722503265100FFEA1A /* MYZPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F22712503265100FFEA1A /* MYZPlayerUITests.swift */; };
 		DAB7EC092505D36E008D1DAE /* MYZTabarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7EC082505D36E008D1DAE /* MYZTabarController.swift */; };
 		DAB7EC0B2505D390008D1DAE /* MYZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7EC0A2505D390008D1DAE /* MYZNavigationController.swift */; };
+		DAF80674251A4A34001064B5 /* MYZConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80673251A4A34001064B5 /* MYZConst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DA2F22732503265100FFEA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB7EC082505D36E008D1DAE /* MYZTabarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZTabarController.swift; sourceTree = "<group>"; };
 		DAB7EC0A2505D390008D1DAE /* MYZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZNavigationController.swift; sourceTree = "<group>"; };
+		DAF80673251A4A34001064B5 /* MYZConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZConst.swift; sourceTree = "<group>"; };
 		E194D41AE3C766D2CB62F3AC /* libPods-MYZPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYZPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,6 @@
 				74F21C370D8679D64B035DE2 /* Pods-MYZPlayer.debug.xcconfig */,
 				017125811D27BA5F0805FCAD /* Pods-MYZPlayer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -126,6 +127,7 @@
 			children = (
 				DA2F224F2503264F00FFEA1A /* AppDelegate.swift */,
 				DA2F22532503264F00FFEA1A /* ViewController.swift */,
+				DAF80673251A4A34001064B5 /* MYZConst.swift */,
 				DAB7EC082505D36E008D1DAE /* MYZTabarController.swift */,
 				DAB7EC0A2505D390008D1DAE /* MYZNavigationController.swift */,
 				DA2F22582503265000FFEA1A /* Assets.xcassets */,
@@ -311,6 +313,7 @@
 			files = (
 				DA2F22542503264F00FFEA1A /* ViewController.swift in Sources */,
 				DAB7EC092505D36E008D1DAE /* MYZTabarController.swift in Sources */,
+				DAF80674251A4A34001064B5 /* MYZConst.swift in Sources */,
 				DA2F22502503264F00FFEA1A /* AppDelegate.swift in Sources */,
 				DAB7EC0B2505D390008D1DAE /* MYZNavigationController.swift in Sources */,
 			);
